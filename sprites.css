@@ -1,0 +1,98 @@
+.sprite {
+    width: 64px;
+    height: 64px;
+    background-image: url(spritesheet2x.png);
+    background-repeat: no-repeat;
+}
+
+.sprite-block {
+    background-position: 0 0;
+}
+
+.sprite-bomb {
+    background-position: -32px 0;
+}
+
+.sprite-exp-center {
+    background-position: -64px 0;
+}
+
+.sprite-exp-down {
+    background-position: -96px 0;
+}
+
+.sprite-exp-hori {
+    background-position: 0 -32px;
+}
+
+.sprite-exp-left {
+    background-position: -32px -32px;
+}
+
+.sprite-exp-right {
+    background-position: -64px -32px;
+}
+
+.sprite-exp-up {
+    background-position: -96px -32px;
+}
+
+.sprite-exp-vert {
+    background-position: 0 -64px;
+}
+
+.sprite-floor {
+    background-position: -32px -64px;
+}
+
+.sprite-hardblock {
+    background-position: -64px -64px;
+}
+
+.sprite-p1 {
+    background-position: -96px -64px;
+}
+
+.sprite-p1bomb {
+    background-position: 0 -96px;
+}
+
+.sprite-p2 {
+    background-position: -32px -96px;
+}
+
+.sprite-p2bomb {
+    background-position: -64px -96px;
+}
+
+.sprite-p3 {
+    background-position: -96px -96px;
+}
+
+.sprite-p3bomb {
+    background-position: -128px 0;
+}
+
+.sprite-p4 {
+    background-position: -128px -32px;
+}
+
+.sprite-p4bomb {
+    background-position: -128px -64px;
+}
+
+.sprite-powerup-bombs {
+    background-position: -128px -96px;
+}
+
+.sprite-powerup-burn {
+    background-position: 0 -128px;
+}
+
+.sprite-powerup-speed {
+    background-position: -32px -128px;
+}
+
+.sprite-powerup-strength {
+    background-position: -64px -128px;
+}
